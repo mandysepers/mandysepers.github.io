@@ -3,46 +3,67 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 
 <body>
 
     <h1>
         Kerst 2023 in Amsterdam Noord
     </h1>
+    <div id="instruction">
+        <p>
+            Zoals je ziet, zit het cadeau nog op slot... Om het slot te ontcijferen, moeten jullie samenwerken. Hier is het stappenplan: <br>
+        </p>
+        <h5>1 - Selecteer je naam</h5>
+        <h5>2 - Los de quiz op</h5>
+        <h5>3 - Leg de telefoons naast elkaar van jong naar oud</h5>
+    </div>
+        
+    <div id="nameSelect">
+        <h1>1</h1>
+        <select id="identityDropdown">
+            <option value="default">Naam</option>
+            <option value="user1">User 1</option>
+            <option value="user2">User 2</option>
+            <option value="user3">User 3</option>
+        </select>
+        <br>
+        <button id="nameConfirmButton" onclick="loadSelectedContent()">Start het spel!</button>
+    </div>
+        
 
-    <select id="identityDropdown">
-        <option value="default">Select an Identity</option>
-        <option value="user1">User 1</option>
-        <option value="user2">User 2</option>
-        <option value="user3">User 3</option>
-    </select>
-    <br>
-    <button onclick="redirectToSelectedPage()">Go to Page</button>
+    <div id="content">
+        <h1>2</h1>
+        <p>Selecteer je naam om te beginnen</p>
+    </div>
 
+    <div id="content">
+        <h1>3</h1>
+        <p>Voltooi de quiz om je puzzelstuk te zien</p>
+    </div>
 
     <script>
-        function redirectToSelectedPage() {
+        function loadSelectedContent() {
             var dropdown = document.getElementById("identityDropdown");
             var selectedIdentity = dropdown.value;
+            var contentDiv = document.getElementById("content");
 
             if (selectedIdentity === "default") {
-                alert("Please select an identity.");
+                contentDiv.innerHTML = "<h1>2</h1><p>Selecteer je naam om te beginnen</p>";
             } else {
-                // Redirect to the appropriate page based on the selected identity
-                switch (selectedIdentity) {
-                    case "user1":
-                        window.location.href = "user1.html";
-                        break;
-                    case "user2":
-                        window.location.href = "user2.html";
-                        break;
-                    case "user3":
-                        window.location.href = "user3.html";
-                        break;
-                    default:
-                        break;
-                }
+                document.getElementById("nameConfirmButton").disabled = true;
+                console.log(selectedIdentity)
+                // Load content from an external file based on the selected identity
+                fetch(selectedIdentity + "-content.html")
+                    .then(response => response.text())
+                    .then(data => {
+                        contentDiv.innerHTML = data;
+                    })
+                    .catch(error => {
+                        console.error('Error fetching content: ' + error);
+                    });
             }
         }
     </script>
