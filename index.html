@@ -1,5 +1,52 @@
 <html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
     <h1>
         Kerst 2023 in Amsterdam Noord
     </h1>
+
+    <select id="identityDropdown">
+        <option value="default">Select an Identity</option>
+        <option value="user1">User 1</option>
+        <option value="user2">User 2</option>
+        <option value="user3">User 3</option>
+    </select>
+    <br>
+    <button onclick="redirectToSelectedPage()">Go to Page</button>
+
+
+    <script>
+        function redirectToSelectedPage() {
+            var dropdown = document.getElementById("identityDropdown");
+            var selectedIdentity = dropdown.value;
+
+            if (selectedIdentity === "default") {
+                alert("Please select an identity.");
+            } else {
+                // Redirect to the appropriate page based on the selected identity
+                switch (selectedIdentity) {
+                    case "user1":
+                        window.location.href = "user1.html";
+                        break;
+                    case "user2":
+                        window.location.href = "user2.html";
+                        break;
+                    case "user3":
+                        window.location.href = "user3.html";
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+    </script>
+
+</body>
+
 </html>
