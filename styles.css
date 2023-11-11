@@ -1,85 +1,79 @@
-/* Apply styles to the body */
+/* Import Bootstrap styles (replace with your Bootstrap CSS file link) */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+/* Custom Christmas Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 5%;
+    background-color: #000000; /* Dark background */
+    color: #ffffff; /* White text color */
+    padding:30px; /* Add padding to the body */
+    text-align: left; /* Center text */
 }
 
-div {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+
+#introduction h1 {
+    color: #a8371e; /* Dark orange text color for the introduction */
+}
+
+#userSelection,
+#quiz,
+#imageDisplay {
+    background-color: #1f1f1f; /* Dark gray background for main sections */
+    border: 2px solid #27ae60; /* Teal border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Increase padding */
     margin-top: 20px;
 }
 
-/* Style the header */
-h1 {
-    color: #333;
-}
-
-/* Style the dropdown */
-select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Style the button */
+label,
 button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    color: #fff; /* White text color */
 }
 
-button:hover {
-    background-color: #0056b3;
+#userName,
+#answerOptions {
+    width: 100%;
+    margin-bottom: 20px; /* Increase margin */
+    background-color: #2c3e50; /* Midnight blue background for input/select */
+    color: #ecf0f1; /* Light gray text color */
+    padding: 10px; /* Add padding */
 }
 
-button:disabled,
-button[disabled]{
-  border: 1px solid #999999;
-  background-color: #cccccc;
-  color: #666666;
+button {
+    background-color: #27ae60; /* Emerald green button color */
+    padding: 10px 20px; /* Add padding */
 }
 
-/* Style the instruction div */
-/* #instruction {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+button:disabled {
+    background-color: #7f8c8d; /* Grey color for disabled state */
+    cursor: not-allowed; /* Change cursor for disabled state */
+}
+
+#timer {
+    font-size: 20px;
+    color: #e74c3c; /* Alizarin red color for the timer */
+}
+
+#imageDisplay img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
     margin-top: 20px;
-} */
-
-/* Style the nameselect div */
-/* #nameselect {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 20px;
-} */
-
-/* Style the content div */
-/* #content {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 20px;
-} */
-
-/* Style links (if applicable) */
-a {
-    color: #007BFF;
-    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Bootstrap Utilities */
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.text-danger {
+    color: #e74c3c !important; /* Alizarin red text color */
 }

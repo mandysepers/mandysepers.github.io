@@ -1,73 +1,69 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerstavond 2023</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add this script tag to the head of your HTML file -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 </head>
 
-
 <body>
+    <div id="particles-js"></div>
 
-    <h1>
-        Kerst 2023 in Amsterdam Noord
-    </h1>
+    <!-- Introduction Text -->
+    <div id="introduction">
+        <h1>
+            Kerst 2023</br>
+            Amsterdam Noord
+        </h1>
+    </div>
+
     <div id="instruction">
         <p>
-            Zoals je ziet, zit het cadeau nog op slot... Om het slot te ontcijferen, moeten jullie samenwerken. Hier is het stappenplan: <br>
+            Zoals je ziet, zit het cadeau nog op slot... Om het slot te ontcijferen, moeten jullie <b>samenwerken</b>. Hier is
+            het stappenplan: <br>
         </p>
         <h5>1 - Selecteer je naam</h5>
         <h5>2 - Los de quiz op</h5>
         <h5>3 - Leg de telefoons naast elkaar van jong naar oud</h5>
     </div>
-        
-    <div id="nameSelect">
-        <h1>1</h1>
-        <select id="identityDropdown">
-            <option value="default">Naam</option>
-            <option value="user1">User 1</option>
-            <option value="user2">User 2</option>
-            <option value="user3">User 3</option>
+
+    <!-- Dropdown for User Selection -->
+    <div id="userSelection">
+        <label for="userName">Selecteer je naam:</label>
+        <select id="userName">
+            <option value="Alex">Alex</option>
+            <option value="Johan">Johan</option>
+            <option value="Maureen">Maureen</option>
+            <option value="Myrna">Myrna</option>
+            <option value="Patrick">Patrick</option>
+            <option value="Ria">Ria</option>
+            <option value="Romy">Romy</option>
+            <option value="Timo">Timo</option>
         </select>
-        <br>
-        <button id="nameConfirmButton" onclick="loadSelectedContent()">Start het spel!</button>
-    </div>
-        
-
-    <div id="content">
-        <h1>2</h1>
-        <p>Selecteer je naam om te beginnen</p>
+        <button onclick="startQuiz()">Start Quiz</button>
     </div>
 
-    <div id="content">
-        <h1>3</h1>
-        <p>Voltooi de quiz om je puzzelstuk te zien</p>
+    <!-- Quiz Section -->
+    <div id="quiz" style="display: none;">
+        <h2 id="questionText"></h2>
+        <select id="answerOptions"></select>
+        <button id="quizButton" onclick="checkAnswer()">Volgende vraag</button>
+        <div id="timer"></div>
     </div>
 
-    <script>
-        function loadSelectedContent() {
-            var dropdown = document.getElementById("identityDropdown");
-            var selectedIdentity = dropdown.value;
-            var contentDiv = document.getElementById("content");
+    <!-- Image Display Section -->
+    <div id="imageDisplay" style="display: none;">
+        <img id="winImage" src="cartoon.jpg" alt="Cartoon Image">
+    </div>
 
-            if (selectedIdentity === "default") {
-                contentDiv.innerHTML = "<h1>2</h1><p>Selecteer je naam om te beginnen</p>";
-            } else {
-                document.getElementById("nameConfirmButton").disabled = true;
-                console.log(selectedIdentity)
-                // Load content from an external file based on the selected identity
-                fetch(selectedIdentity + "-content.html")
-                    .then(response => response.text())
-                    .then(data => {
-                        contentDiv.innerHTML = data;
-                    })
-                    .catch(error => {
-                        console.error('Error fetching content: ' + error);
-                    });
-            }
-        }
-    </script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
