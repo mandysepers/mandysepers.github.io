@@ -193,21 +193,29 @@ particlesJS("particles-js", {
         color: {
             value: "#fff"
         },
+        // shape: {
+        //     type: "circle",
+        //     stroke: {
+        //         width: 0,
+        //         color: "#000000"
+        //     },
+        //     polygon: {
+        //         nb_sides: 5
+        //     },
+        //     image: {
+        //         src: "img/github.svg",
+        //         width: 100,
+        //         height: 100
+        //     }
+        // },
         shape: {
-            type: "circle",
-            stroke: {
-                width: 0,
-                color: "#000000"
-            },
-            polygon: {
-                nb_sides: 5
-            },
+            type: "image",
             image: {
-                src: "img/github.svg",
-                width: 100,
-                height: 100
+               src: "images/snowflake.png", // Set image path. 
+               width: 1,   // Width and height don't decide size. 
+               height: 1   // They just decide aspect ratio. 
             }
-        },
+          },
         opacity: {
             value: 0.5,
             random: true,
