@@ -77,3 +77,27 @@ button:disabled {
 .text-danger {
     color: #e74c3c !important; /* Alizarin red text color */
 }
+
+
+.speech-balloon {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.speech-balloon img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.speech-balloon p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
