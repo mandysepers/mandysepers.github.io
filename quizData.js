@@ -21,7 +21,94 @@ var allQuizData = {
             optons: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
             correctAnswer: ""
         },
+        {
+            question: "Hoe lang is X?",
+            optons: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is de schoenmaat van X?",
+            optons: ["35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is de lievelingskleur van X?",
+            optons: ["1. Roze, 2. paars en 3. oranje","Blauw","Donkerblauw","Flessengroen","Geel","Groen","Roest","Rood","Zwart"],
+            correctAnswer: ""
+        },
+        {
+            question: "Waarheen ging de laatste vakantie van X?",
+            optons: ["Egypte", "Frankrijk", "Maleisië", "Spanje"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is het favoriete seizoen van X?",
+            optons: ["Winter","Lente","Zomer","Herfst"],
+            correctAnswer: ""
+        },        {
+            question: "Wat is de favoriete TV-serie allertijden van X?",
+            optons: ["Breaking bad","Engelse detective series","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","Wie is de mol?"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is het lievelingseten van X?",
+            optons: ["Brood","Pasta","Pasta bolognese", "Stoofperen","Sushi en frikandellen"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is het favoriete nummer en/of artiest van X?",
+            optons: ["Heb ik niet echt, zou zeggen andre hazes","I want it that wat, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)"],
+            correctAnswer: ""
+        },
+        {
+            question: "Als X zou moeten emigreren, waar zou die dan heen gaan?",
+            optons: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Spanje","Spanje, Mallorca"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is de lievelingssport van X?",
+            optons: ["Geen!","Shoppen","Softbal","Voetbal"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat is het verborgen talent van X?",
+            optons: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Té goed verborgen"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wie is het idool van X?",
+            optons: ["Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
+            correctAnswer: ""
+        },
+        {
+            question: "Welke superkracht zou X willen hebben?",
+            optons: ["Kunnen vliegen","Onverwoestbaar","Onzichtbaar zijn","Teleporteren","Transporteren"],
+            correctAnswer: ""
+        },
+        {
+            question: "Hoe veel broers/zussen heeft/had X?",
+            optons: ["0","1","2","3","4","5","6"],
+            correctAnswer: ""
+        },
+        {
+            question: "Wat voor auto heeft X?",
+            optons: ["Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
+            correctAnswer: ""
+        },
 
+        {
+            question: "Hoe veel keer is X verhuisd?",
+            optons: ["0","1","2","3","4","5","6","7","8","9","10"],
+            correctAnswer: ""
+        },
+
+        {
+            question: "van X?",
+            optons: [
+                
+                ],
+            correctAnswer: ""
+        }
     ],
     "Alex": [
         {
