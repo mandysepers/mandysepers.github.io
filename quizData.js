@@ -100,13 +100,61 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: ""
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: Ik zou heel graag, net als in GTA, met een auto op een dieplader willen rijden en die gebruiken als schans",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Alex"
+        },
+        {
+            question: "Wie zegt: Ik rij een langzame auto uit zelfbescherming, want ik race altijd",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Maureen"
+        },
+        {
+            question: "Wie zegt: ik maak altijd de afstandbedieningen en handgrepen en dergelijke schoon in een hotelkamer",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Myrna"
+        },
+        {
+            question: "Wie zegt: Ik zou graag een deense dog willen hebben en een tekkel",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Myrna"
+        },
+        {
+            question: "Wie zegt: ik zou graag alle landen van de wereld bezoeken",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Myrna"
+        },
+        {
+            question: "Wie zegt: ik zou nog wel eens een huis willen bouwen",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Patrick"
+        },
+        {
+            question: "Wie zegt: ik ben veel trotser op mijn kinderen dan ik misschien laat blijken",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Patrick"
+        },
+        {
+            question: "Wie zegt: ik lig 5 minuten te draaien voordat ik goed lig en helemaal onder de dekens lig met een klein ademgaatje naar buiten",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Patrick"
+        },
+        {
+            question: "Wie zegt: ik ben letterlijk geobsedeerd met Groot van Marvel Guardians of the Galaxy",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Romy"
+        },
+        {
+            question: "Wie zegt: ik moet als ik een zoete snack heb ook iets van hartigs of zout erbij hebben, anders klopt het niet",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Romy"
+        },
+        {
+            question: "Wie zegt: ik heb een obsessie gekregen sinds kort om altijd als ik bij de hornbach ben, langs de paden te lopen van machines en handgereedschap om dan heel lang te staan kijken en alles vast te houden",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Timo"
+        }
     ],
     "Alex": [
         {
@@ -148,7 +196,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Timo?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Lente"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Ria?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "VI"
@@ -204,13 +253,11 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "9"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: ik zou nog wel eens een huis willen bouwen",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Patrick"
+        }
     ],
     "Johan": [
         {
@@ -252,7 +299,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Maureen?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Lente"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Romy?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "Handmaids tale/married at first sight australie"
@@ -302,13 +350,11 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "5"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: Ik zou graag een deense dog willen hebben en een tekkel",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Myrna"
+        }
     ],
     "Maureen": [
         {
@@ -326,11 +372,6 @@ var allQuizData = {
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
             correctAnswer: "26"
         },
-        // {
-        //     question: "Hoe oud is X?",
-        //     options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
-        //     correctAnswer: ""
-        // },
         {
             question: "Hoe lang is Johan?",
             options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
@@ -411,13 +452,16 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "5"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: ik ben veel trotser op mijn kinderen dan ik misschien laat blijken",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Patrick"
+        },
+        {
+            question: "Wie zegt: ik ben letterlijk geobsedeerd met Groot van Marvel Guardians of the Galaxy",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Romy"
+        },
     ],
     "Myrna": [
         {
@@ -435,11 +479,6 @@ var allQuizData = {
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
             correctAnswer: "9"
         },
-        // {
-        //     question: "Hoe oud is X?",
-        //     options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
-        //     correctAnswer: ""
-        // },
         {
             question: "Hoe lang is Ria?",
             options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
@@ -464,7 +503,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Alex?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Zomer"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Maureen?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "Wie is de mol?"
@@ -519,13 +559,16 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "2"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: Ik rij een langzame auto uit zelfbescherming, want ik race altijd",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Maureen"
+        },
+        {
+            question: "Wie zegt: ik heb een obsessie gekregen sinds kort om altijd als ik bij de hornbach ben, langs de paden te lopen van machines en handgereedschap om dan heel lang te staan kijken en alles vast te houden",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Timo"
+        }
     ],
     "Patrick": [
         {
@@ -543,11 +586,6 @@ var allQuizData = {
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
             correctAnswer: "3"
         },
-        // {
-        //     question: "Hoe oud is X?",
-        //     options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
-        //     correctAnswer: ""
-        // },
         {
             question: "Hoe lang is Romy?",
             options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
@@ -572,7 +610,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Ria?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Alle seizoenen zijn prima"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Alex?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "Meiland/de augurkenkoning"
@@ -627,13 +666,11 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "4"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: Ik zou heel graag, net als in GTA, met een auto op een dieplader willen rijden en die gebruiken als schans",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Alex"
+        }
     ],
     "Ria": [
         {
@@ -651,11 +688,6 @@ var allQuizData = {
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
             correctAnswer: "21"
         },
-        // {
-        //     question: "Hoe oud is X?",
-        //     options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
-        //     correctAnswer: ""
-        // },
         {
             question: "Hoe lang is Timo?",
             options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
@@ -680,7 +712,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Romy?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Lente"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Timo?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "Breaking bad"
@@ -725,13 +758,11 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "1"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: ik maak altijd de afstandbedieningen en handgrepen en dergelijke schoon in een hotelkamer",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Myrna"
+        }
     ],
     "Romy": [
         {
@@ -749,11 +780,6 @@ var allQuizData = {
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
             correctAnswer: "4"
         },
-        // {
-        //     question: "Hoe oud is X?",
-        //     options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
-        //     correctAnswer: ""
-        // },
         {
             question: "Hoe lang is Maureen?",
             options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
@@ -778,7 +804,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Patrick?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Lente"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Myrna?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "Engelse detective series"
@@ -833,13 +860,11 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "7"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: ik zou graag alle landen van de wereld bezoeken",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Myrna"
+        }
     ],
     "Timo": [
         {
@@ -857,11 +882,6 @@ var allQuizData = {
             options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
             correctAnswer: "22"
         },
-        // {
-        //     question: "Hoe oud is X?",
-        //     options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
-        //     correctAnswer: ""
-        // },
         {
             question: "Hoe lang is Alex?",
             options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
@@ -886,7 +906,8 @@ var allQuizData = {
             question: "Wat is het favoriete seizoen van Johan?",
             options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Zomer"
-        },        {
+        },
+        {
             question: "Wat is de favoriete TV-serie allertijden van Patrick?",
             options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "Mc Gyver"
@@ -941,12 +962,10 @@ var allQuizData = {
             options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "1"
         },
-        // {
-        //     question: "van X?",
-        //     options: [
-                
-        //         ],
-        //     correctAnswer: ""
-        // }
+        {
+            question: "Wie zegt: ik moet als ik een zoete snack heb ook iets van hartigs of zout erbij hebben, anders klopt het niet",
+            options: ["Alex","Johan","Maureen","Myrna","Patrick","Ria","Romy","Timo"],
+            correctAnswer: "Romy"
+        }
     ]
 };
