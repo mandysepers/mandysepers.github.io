@@ -38,46 +38,46 @@ var allQuizData = {
         },
         {
             question: "Waarheen ging de laatste vakantie van X?",
-            optons: ["Egypte", "Frankrijk", "Maleisië", "Spanje"],
+            optons: ["Egypte", "Frankrijk", "Maleisië", "Nederland", "Spanje"],
             correctAnswer: ""
         },
         {
             question: "Wat is het favoriete seizoen van X?",
-            optons: ["Winter","Lente","Zomer","Herfst"],
+            optons: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: ""
         },        {
             question: "Wat is de favoriete TV-serie allertijden van X?",
-            optons: ["Breaking bad","Engelse detective series","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","Wie is de mol?"],
+            optons: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: ""
         },
         {
             question: "Wat is het lievelingseten van X?",
-            optons: ["Brood","Pasta","Pasta bolognese", "Stoofperen","Sushi en frikandellen"],
+            optons: ["Brood","Chinees","Pasta","Pasta bolognese","Sate met opgepakte aardappelen","Stoofperen","Sushi en frikandellen"],
             correctAnswer: ""
         },
         {
             question: "Wat is het favoriete nummer en/of artiest van X?",
-            optons: ["Heb ik niet echt, zou zeggen andre hazes","I want it that wat, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)"],
+            optons: ["Heb ik niet echt, zou zeggen andre hazes","I want it that way, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)","Queen, I want to break free"],
             correctAnswer: ""
         },
         {
             question: "Als X zou moeten emigreren, waar zou die dan heen gaan?",
-            optons: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Spanje","Spanje, Mallorca"],
+            optons: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Nergens","Spanje","Spanje, Mallorca"],
             correctAnswer: ""
         },
         {
             question: "Wat is de lievelingssport van X?",
-            optons: ["Geen!","Shoppen","Softbal","Voetbal"],
+            optons: ["Geen!","Golf","Schaatsen","Shoppen","Softbal","Voetbal"],
             correctAnswer: ""
         },
         {
             question: "Wat is het verborgen talent van X?",
-            optons: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Té goed verborgen"],
+            optons: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Mijzelf zijn","Té goed verborgen"],
             correctAnswer: ""
         },
         {
             question: "Wie is het idool van X?",
-            optons: ["Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
+            optons: ["Al mijn familie","Geen","Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
             correctAnswer: ""
         },
         {
@@ -92,7 +92,7 @@ var allQuizData = {
         },
         {
             question: "Wat voor auto heeft X?",
-            optons: ["Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
+            optons: ["Kia Niro","Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
             correctAnswer: ""
         },
 
@@ -101,7 +101,6 @@ var allQuizData = {
             optons: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: ""
         },
-
         {
             question: "van X?",
             optons: [
