@@ -18,92 +18,92 @@ var allQuizData = {
         },
         {
             question: "Hoe oud is X?",
-            optons: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
+            options: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"],
             correctAnswer: ""
         },
         {
             question: "Hoe lang is X?",
-            optons: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
+            options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
             correctAnswer: ""
         },
         {
             question: "Wat is de schoenmaat van X?",
-            optons: ["35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],
+            options: ["35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],
             correctAnswer: ""
         },
         {
             question: "Wat is de lievelingskleur van X?",
-            optons: ["1. Roze, 2. paars en 3. oranje","Blauw","Donkerblauw","Flessengroen","Geel","Groen","Roest","Rood","Zwart"],
+            options: ["1. Roze, 2. paars en 3. oranje","Blauw","Donkerblauw","Flessengroen","Geel","Groen","Roest","Rood","Zwart"],
             correctAnswer: ""
         },
         {
             question: "Waarheen ging de laatste vakantie van X?",
-            optons: ["Egypte", "Frankrijk", "Maleisië", "Nederland", "Spanje"],
+            options: ["Egypte", "Frankrijk", "Maleisië", "Nederland", "Spanje"],
             correctAnswer: ""
         },
         {
             question: "Wat is het favoriete seizoen van X?",
-            optons: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
+            options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: ""
         },        {
             question: "Wat is de favoriete TV-serie allertijden van X?",
-            optons: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
+            options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: ""
         },
         {
             question: "Wat is het lievelingseten van X?",
-            optons: ["Brood","Chinees","Pasta","Pasta bolognese","Sate met opgepakte aardappelen","Stoofperen","Sushi en frikandellen"],
+            options: ["Brood","Chinees","Pasta","Pasta bolognese","Sate met opgepakte aardappelen","Stoofperen","Sushi en frikandellen"],
             correctAnswer: ""
         },
         {
             question: "Wat is het favoriete nummer en/of artiest van X?",
-            optons: ["Heb ik niet echt, zou zeggen andre hazes","I want it that way, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)","Queen, I want to break free"],
+            options: ["Heb ik niet echt, zou zeggen andre hazes","I want it that way, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)","Queen, I want to break free"],
             correctAnswer: ""
         },
         {
             question: "Als X zou moeten emigreren, waar zou die dan heen gaan?",
-            optons: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Nergens","Spanje","Spanje, Mallorca"],
+            options: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Nergens","Spanje","Spanje, Mallorca"],
             correctAnswer: ""
         },
         {
             question: "Wat is de lievelingssport van X?",
-            optons: ["Geen!","Golf","Schaatsen","Shoppen","Softbal","Voetbal"],
+            options: ["Geen!","Golf","Schaatsen","Shoppen","Softbal","Voetbal"],
             correctAnswer: ""
         },
         {
             question: "Wat is het verborgen talent van X?",
-            optons: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Mijzelf zijn","Té goed verborgen"],
+            options: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Mijzelf zijn","Té goed verborgen"],
             correctAnswer: ""
         },
         {
             question: "Wie is het idool van X?",
-            optons: ["Al mijn familie","Geen","Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
+            options: ["Al mijn familie","Geen","Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
             correctAnswer: ""
         },
         {
             question: "Welke superkracht zou X willen hebben?",
-            optons: ["Kunnen vliegen","Onverwoestbaar","Onzichtbaar zijn","Teleporteren","Transporteren"],
+            options: ["Kunnen vliegen","Onverwoestbaar","Onzichtbaar zijn","Teleporteren","Transporteren"],
             correctAnswer: ""
         },
         {
             question: "Hoe veel broers/zussen heeft/had X?",
-            optons: ["0","1","2","3","4","5","6"],
+            options: ["0","1","2","3","4","5","6"],
             correctAnswer: ""
         },
         {
             question: "Wat voor auto heeft X?",
-            optons: ["Kia Niro","Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
+            options: ["Kia Niro","Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
             correctAnswer: ""
         },
 
         {
             question: "Hoe veel keer is X verhuisd?",
-            optons: ["0","1","2","3","4","5","6","7","8","9","10"],
+            options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: ""
         },
         {
             question: "van X?",
-            optons: [
+            options: [
                 
                 ],
             correctAnswer: ""
@@ -127,87 +127,87 @@ var allQuizData = {
         },
         {
             question: "Hoe lang is Myrna?",
-            optons: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
+            options: ["160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200"],
             correctAnswer: "167"
         },
         {
             question: "Wat is de schoenmaat van Ria?",
-            optons: ["35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],
+            options: ["35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],
             correctAnswer: "40"
         },
         {
             question: "Wat is de lievelingskleur van Maureen?",
-            optons: ["1. Roze, 2. paars en 3. oranje","Blauw","Donkerblauw","Flessengroen","Geel","Groen","Roest","Rood","Zwart"],
+            options: ["1. Roze, 2. paars en 3. oranje","Blauw","Donkerblauw","Flessengroen","Geel","Groen","Roest","Rood","Zwart"],
             correctAnswer: "Roest"
         },
         {
             question: "Waarheen ging de laatste vakantie van Patrick?",
-            optons: ["Egypte", "Frankrijk", "Maleisië", "Nederland", "Spanje"],
+            options: ["Egypte", "Frankrijk", "Maleisië", "Nederland", "Spanje"],
             correctAnswer: "Maleisië"
         },
         {
             question: "Wat is het favoriete seizoen van Timo?",
-            optons: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
+            options: ["Winter","Lente","Zomer","Herfst", "Alle seizoenen zijn prima"],
             correctAnswer: "Lente"
         },        {
             question: "Wat is de favoriete TV-serie allertijden van Ria?",
-            optons: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
+            options: ["Breaking bad","Engelse detective series","Goede tijden, slechte tijden","Handmaids tale/married at first sight australie","Mc Gyver","Meiland/de augurkenkoning","VI","Wie is de mol?"],
             correctAnswer: "VI"
         },
         {
             question: "Wat is het lievelingseten van Maureen?",
-            optons: ["Brood","Chinees","Pasta","Pasta bolognese","Sate met opgepakte aardappelen","Stoofperen","Sushi en frikandellen"],
+            options: ["Brood","Chinees","Pasta","Pasta bolognese","Sate met opgepakte aardappelen","Stoofperen","Sushi en frikandellen"],
             correctAnswer: "Pasta"
         },
         {
             question: "Wat is het favoriete nummer en/of artiest van Patrick?",
-            optons: ["Heb ik niet echt, zou zeggen andre hazes","I want it that way, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)","Queen, I want to break free"],
+            options: ["Heb ik niet echt, zou zeggen andre hazes","I want it that way, backstreet boys","Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)","Paradise by the dashboardlight - meat loaf","Vanilla ice (ice baby)","Queen, I want to break free"],
             correctAnswer: "Laatste rondje - Hazes. (het is tijd, de hoogste tijd...)"
         },
         {
             question: "Als Romy zou moeten emigreren, waar zou die dan heen gaan?",
-            optons: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Nergens","Spanje","Spanje, Mallorca"],
+            options: ["Bali (Indonesie)","Indonesië","Italie","Italië of Spanje, naar m'n zus","Nergens","Spanje","Spanje, Mallorca"],
             correctAnswer: "Spanje, Mallorca"
         },
         {
             question: "Wat is de lievelingssport van Johan?",
-            optons: ["Geen!","Golf","Schaatsen","Shoppen","Softbal","Voetbal"],
+            options: ["Geen!","Golf","Schaatsen","Shoppen","Softbal","Voetbal"],
             correctAnswer: "Golf"
         },
         {
             question: "Wat is het verborgen talent van Timo?",
-            optons: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Mijzelf zijn","Té goed verborgen"],
+            options: ["Dat ik heel goed dingen kan regelen (zoals een hele vakantie!)","Eigenlijk ben ik heel slim","Enorm gevoelig","Heb ik niet","Heb ik niet, ze liggen al op tafel","Ik kan met mn tong mn neus aanraken","Mijzelf zijn","Té goed verborgen"],
             correctAnswer: "Heb ik niet, ze liggen al op tafel"
         },
         {
             question: "Wie is het idool van Romy?",
-            optons: ["Al mijn familie","Geen","Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
+            options: ["Al mijn familie","Geen","Geraldine kemper","Harrison Ford","De vader van Mandy","Me vader","Sam smith","Vader en zoon Verhulst"],
             correctAnswer: "Sam smith"
         },
         {
             question: "Welke superkracht zou Myrna willen hebben?",
-            optons: ["Kunnen vliegen","Onverwoestbaar","Onzichtbaar zijn","Teleporteren","Transporteren"],
+            options: ["Kunnen vliegen","Onverwoestbaar","Onzichtbaar zijn","Teleporteren","Transporteren"],
             correctAnswer: "Onzichtbaar zijn"
         },
         {
             question: "Hoe veel broers/zussen heeft/had Romy?",
-            optons: ["0","1","2","3","4","5","6"],
+            options: ["0","1","2","3","4","5","6"],
             correctAnswer: "1"
         },
         {
             question: "Wat voor auto heeft Ria?",
-            optons: ["Kia Niro","Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
+            options: ["Kia Niro","Mazda mx30","Renault clio","Renault Megane E Tech","Toyota Aygo","Volvo"],
             correctAnswer: "Kia Niro"
         },
 
         {
             question: "Hoe veel keer is Myrna verhuisd?",
-            optons: ["0","1","2","3","4","5","6","7","8","9","10"],
+            options: ["0","1","2","3","4","5","6","7","8","9","10"],
             correctAnswer: "9"
         },
         // {
         //     question: "van X?",
-        //     optons: [
+        //     options: [
                 
         //         ],
         //     correctAnswer: ""
