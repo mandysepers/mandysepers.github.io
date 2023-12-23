@@ -1026,7 +1026,7 @@ function checkAnswer() {
 
 // Timer Functions
 function startTimer() {
-    var timeLeft = 5; // seconds
+    var timeLeft = 10; // seconds
 
     timer = setInterval(function () {
         document.getElementById("timer").textContent = "Fout! Voor straf moet je nog " + timeLeft + " seconden wachten om verder te gaan.";
